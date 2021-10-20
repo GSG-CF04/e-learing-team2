@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #6360ff;
+}
+.logo {
+  max-width: 100%;
+  height: auto;
+}
+.sinau {
+  max-width: 100%;
+  height: auto;
+  margin: 7%;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  height: 50vh;
+}
+.header-par {
+  color: white;
+  font-family: "DM Sans", sans-serif;
+  margin-top: -5%;
+}
+a {
+  text-decoration: none;
+}
+.sign-in {
+  background-color: #f1f1fa;
+  height: 50vh;
+  border-radius: 7% 7% 0% 0%;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.email {
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 8%;
+  width: 86vw;
+}
+.password {
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: -4%;
+  width: 86vw;
+}
+input:focus {
+  outline: none;
+}
+input {
+  border: 0px transparent;
+}
+.icons {
+  color: #6360ff;
+}
+input::-webkit-input-placeholder {
+  font-size: 100%;
+}
+
+.sign-in-btn {
+  width: 90vw;
+  padding: 10px;
+  border-radius: 10px;
+  border: 0px transparent;
+  background-color: #6360ff;
+  color: white;
+  font-family: "DM Sans", sans-serif;
+  margin-top: 6%;
+}
+.google-btn {
+  width: 90vw;
+  padding: 10px;
+  border-radius: 10px;
+  border: 0px transparent;
+  background-color: #ff8181;
+  color: white;
+  font-family: "DM Sans", sans-serif;
+  margin-top: 6%;
+}
