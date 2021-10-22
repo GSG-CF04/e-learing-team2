@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
+
+* {
+  padding: 0;
+  margin: 0; font-family: "DM Sans", sans-serif;
+}
+.body{
+    background-color: #FCFCFF;
+   
+}
+
+
+header {
+  display: flex;
+ background-color: #6360ff;
+ justify-content: center;
+align-items: center;
+  height: 10vh;
+}
+
+.course-nav{
+    width: 95%;
+    height: 5vh;
+    background-color: #6360ff;
+    display: flex;
+    align-items: center;
+flex-direction: row;
+    justify-content: space-between;
+    
+}
+.cvideo{
+    display: flex;
+    justify-content: center;
+}
+.Introduction{
+    height: 2vh;
+    width: 80%;
+    background-color:  #6360ff;
+    color: rgb(255, 255, 255);
+}
+.header-par {
+  color: white;
+  font-family: "DM Sans", sans-serif;
+  margin-top: -5%;
+}
+.Course-Content{
+   display: flex; 
+  
+   background-color: #FCFCFF;
+   flex-direction: row;
+   justify-content: center;
+
+}
+.Content1{
+    background-color: #FCFCFF;
+    width: 50%;
+    height: 9vh;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.Discussion{
+    background-color: #c4c4c4;
+    width: 50%;
+    height: 9vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+a {
+  text-decoration: none;
+}
+.Content-section {
+  background-color: #f1f1fa;
+  height: 20vh;
+
+
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card-section{
+display: flex;
+flex-direction: column;
+align-items: center;
+background-color: #FCFCFF;
+
+}
+.card{
+    width: 90%;
+    height: 7vh;
+    background-color:#FCFCFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.coulm-card{
+    display: flex;
+    flex-direction: column;
+}
+
+.font7{
+    font-size: 14px; margin-top: 1vh;
+    color: #91919F;
+}
+.hr-course{
+    background-color: #afafb8;
+    height: 1px;
+    width: 100%;
+}
+
+@media (min-width: 1024px)  {
+    .Introduction{
+       
+        width: 95%;
+       
+    }
+    .course-video{
+        width: 80%;
+    }
+    .Content1{
+        width: 30%;
+    }
+    .Discussion{
+     
+        width: 30%;
+    }
+    .card{
+        width: 60%;
+      
+    }
+    .hr-course{
+       
+        width: 60%;
+    }
+
+    a:hover{
+      cursor:pointer;
+ }
+}
