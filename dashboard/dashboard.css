@@ -9,8 +9,6 @@ body {
   background-color: #6360ff;
 }
 
-
-
 header {
   display: flex;
   flex-direction: column;
@@ -26,6 +24,7 @@ header {
 
 a {
   text-decoration: none;
+  color: black;
 }
 
 #rec-text {
@@ -38,10 +37,9 @@ a {
   display: flex;
   align-items: center;
   flex-direction: column;
-  background-color: #F1F1FA;
+  background-color: #f1f1fa;
   height: 90vh;
   border-radius: 30px 30px 0px 0px;
-
 }
 
 .progress-bar {
@@ -49,7 +47,7 @@ a {
   min-height: 30vh;
   min-width: 85vw;
   border-radius: 10px;
-  background-color: #FCFCFF;
+  background-color: #fcfcff;
   justify-content: flex-start;
   position: relative;
   top: -10%;
@@ -68,11 +66,61 @@ a {
   min-height: 14vh;
   width: 85vw;
   border-radius: 10px;
-  background-color: #FCFCFF;
+  background-color: #fcfcff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "DM Sans", sans-serif;
+}
+
+.recom-deatails {
+  width: 52vw;
+  height: 8vh;
+  margin-left: 2vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.details-par {
+  font-size: 0.7em;
+}
+.price-tag {
+  font-size: 0.7em;
+  font-weight: bold;
+}
+#rating-tag {
+  font-size: 1em;
+  font-weight: bold;
+  color: black;
+}
+ul {
+  font-size: 0.5em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-left: -10%;
+  color: #91919f;
+}
+
+.recom-square {
+  background-color: #ff8181;
+  border-radius: 20%;
+  width: 12vh;
+  height: 12vh;
+  margin-right: 2vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.recom-circle {
+  background-color: #fc9595;
+  width: 30%;
+  height: 30%;
+  border-radius: 50%;
 }
 
 .nav-bar {
-  background-color: #FCFCFF;
+  background-color: #fcfcff;
   height: 5vh;
   border-radius: 20px 20px 0px 0px;
   width: 100%;
@@ -80,15 +128,10 @@ a {
   position: fixed;
 }
 
-
-
-
 @media (min-width: 800px) {
   body {
     background-color: #6360ff;
     display: flex;
     justify-content: center;
-
   }
-
 }
