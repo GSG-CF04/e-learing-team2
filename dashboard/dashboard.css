@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #6360ff;
+}
+
+
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 17vh;
+}
+
+.header-par {
+  color: white;
+  font-family: "DM Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+#rec-text {
+  font-size: 1rem;
+  font-family: "DM Sans", sans-serif;
+  font-weight: bold;
+}
+
+.progress-section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #F1F1FA;
+  height: 90vh;
+  border-radius: 30px 30px 0px 0px;
+
+}
+
+.progress-bar {
+  align-self: center;
+  min-height: 30vh;
+  min-width: 85vw;
+  border-radius: 10px;
+  background-color: #FCFCFF;
+  justify-content: flex-start;
+  position: relative;
+  top: -10%;
+}
+
+.card-container {
+  justify-content: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-top: -10%;
+  gap: 15px;
+  /*determines the space between elements in the flex container*/
+}
+
+.video-card {
+  min-height: 14vh;
+  width: 85vw;
+  border-radius: 10px;
+  background-color: #FCFCFF;
+}
+
+.nav-bar {
+  background-color: #FCFCFF;
+  height: 5vh;
+  border-radius: 20px 20px 0px 0px;
+  width: 100%;
+  bottom: 0;
+  position: fixed;
+}
+
+
+
+
+@media (min-width: 800px) {
+  body {
+    background-color: #6360ff;
+    display: flex;
+    justify-content: center;
+
+  }
+
+}
