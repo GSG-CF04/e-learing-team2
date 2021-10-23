@@ -19,19 +19,12 @@ header {
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 30vh;
+  height: 40vh;
   background-color: #6360ff;
 }
 
-.header-par {
-  color: white;
-  font-family: "DM Sans", sans-serif;
-}
 
-a {
-  text-decoration: none;
-  color: black;
-}
+
 
 
 .progress-section {
@@ -40,7 +33,7 @@ a {
   flex-direction: column;
   background-color: #f1f1fa;
   width: 100%;
-  height: 70vh;
+  height: 60vh;
   border-radius: 30px 30px 0px 0px;
 }
 
@@ -66,7 +59,7 @@ a {
       margin-top: 15vh;
     border-radius: 30px 30px 0px 0px;
     width: 100%;
-   
+    height: 70vh;
   }
   header {
    
@@ -89,21 +82,5 @@ a {
      flex-direction: column-reverse;
      align-items: center;
  }
-  .recom-square {
-   
-    width: 25%;
-   
-  }
-  #rating-tag {
-    font-size: 2em;
-
-  }
-  .li-style{
-font-size: 11px;
-
-
-  }  
-  .details-par {
-    font-size: 1em;
-  }
+ 
 }
