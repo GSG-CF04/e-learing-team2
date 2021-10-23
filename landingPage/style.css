@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #6360ff;
+}
+.logo {
+  max-width: 100%;
+  height: auto;
+}
+.sinau {
+  max-width: 100%;
+  height: auto;
+  margin: 7%;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  height: 50vh;
+}
+.header-par {
+  color: white;
+  font-family: "DM Sans", sans-serif;
+  margin-top: -5%;
+}
+a {
+  text-decoration: none;
+}
+.sign-in {
+  background-color: #f1f1fa;
+  height: 50vh;
+  border-radius: 7% 7% 0% 0%;
+
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.email {
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 8%;
+  width: 40vh;
+}
+.password {
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: -4%;
+  width: 40vh;
+}
+input:focus {
+  outline: none;
+}
+input {
+  border: 0px transparent;
+}
+.icons {
+  color: #6360ff;
+}
+input::-webkit-input-placeholder {
+  font-size: 100%;
+}
+
+.sign-in-btn {
+  text-align: center;
+  width:40vh;
+  padding: 10px;
+  border-radius: 10px;
+  border: 0px transparent;
+  background-color: #6360ff;
+  color: white;
+  font-family: "DM Sans", sans-serif;
+  margin-top: 6%;
+}
+.google-btn {
+  text-align: center;
+  width:40vh;
+  padding: 10px;
+  border-radius: 10px;
+  border: 0px transparent;
+  background-color: #ff8181;
+  color: white;
+  font-family: "DM Sans", sans-serif;
+  margin-top: 6%;
+}
+@media (min-width: 1024px)  {
+  body {
+      background-color: #d9dcdf;
+      display: flex;
+      justify-content: center;
+      
+    }
+    header {
+      background-color: #6360ff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    width: 60%;
+      height: 100vh;
+    }
+    .sign-in {
+      background-color: #f1f1fa;
+     width: 40%; 
+      border-radius: 0% 0% 0% 0%;
+      height: 100vh;
+     
+     
+    }
+    form{
+      margin-top: 31vh;
+    }
+    .email{
+      margin-top: 2vh;
+    }
+    .sign-in-btn{
+      margin-top: 7vh;
+    }
+    a:hover{
+      cursor:pointer;
+ }
+}
