@@ -121,13 +121,27 @@ ul {
 
 .nav-bar {
   background-color: #fcfcff;
-  height: 5vh;
+  height: 7vh;
   border-radius: 20px 20px 0px 0px;
   width: 100%;
   bottom: 0;
   position: fixed;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1em;
 }
-
+#home {
+  color: #ff8181;
+  font-size: 1.5em;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.home-text {
+  font-size: 0.5em;
+  font-family: "DM Sans", sans-serif;
+}
 @media (min-width: 800px) {
   body {
     background-color: #6360ff;
