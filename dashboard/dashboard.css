@@ -81,7 +81,7 @@ a {
   display: flex;
   flex-direction: column;
   align-self: center;
-  min-height: 25vh;
+ height: 55vh;
   width: 85vw;
   border-radius: 10px;
   background-color: #fcfcff;
@@ -266,12 +266,87 @@ ul {
 .done {
   width: 30%;
 }
-/* @media (min-width: 800px) {
 
-
-  body {
-    background-color: #6360ff;
-    display: flex;
-    justify-content: center;
+@media (min-width: 750px)and (max-width: 1024px){
+ 
+    .details-par{
+      font-size: 1.1em;
   }
-} */
+  .price-tag{
+    font-size: 1.1em;
+  } 
+  ul{
+    font-size: 0.8em;
+}
+  #rating-tag {
+    font-size: 2em;
+
+  }
+  }
+
+@media (min-width: 1025px) {
+   body{
+       display: flex;
+       flex-direction: column-reverse;
+       justify-content: center;
+       align-items: center;
+   }
+   .nav-bar {
+    border-radius: 20px 20px 20px 20px;
+    width: 60%;
+    bottom: 0;
+    position: relative;
+  }
+  header{
+    position:relative ;
+    bottom: 113vh;
+    width: 90%;
+  
+  }
+  .box-part{
+      display: flex;
+   width: 100%;
+   justify-content: flex-end;
+  }
+  .progress-section {
+    width: 60%;
+    border-radius: 30px 30px 30px 30px;
+    
+
+  }
+  .card-container{
+      position: relative;
+      left: 3%;
+      bottom: 6%;
+  }
+  .video-card{
+     width: 95%;
+  }
+  .progress-bar {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+   height: 55vh;
+    width: 85%;
+    border-radius: 10px;
+    background-color: #fcfcff;
+    position: relative;
+    bottom: 14%;
+  }
+  #rating-tag {
+    font-size: 2em;
+
+  }
+  ul{
+      font-size: 0.8em;
+  }
+  .details-par{
+      font-size: 1em;
+  }
+  .price-tag{
+      font-size: 1em;
+  } 
+   }
+
+
+
