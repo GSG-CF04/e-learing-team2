@@ -103,7 +103,32 @@ a {
   width: 100%;
   bottom: 0;
   position: fixed;
+  
+display: flex;
+justify-content: space-around;
+align-items: center;
+font-size: 3em;
 }
+.user-text {
+  
+  color: #ff8181;
+  font-family:"DM Sans", sans-serif; 
+  font-size: 0.9em;
+   position: relative;
+  right: 50px; 
+  
+
+      }
+      #user {
+  color: #ff8181;
+  font-size: 1em;
+  position: relative ;
+  display:flex ;
+  flex-direction: column;
+  top: 25px;
+  
+  
+      }
 
 @media (min-width: 1024px) {
   body {
@@ -124,10 +149,10 @@ a {
   }
 
   .nav-bar {
+    border-radius: 20px 20px 20px 20px;
+    width: 60%;
+    bottom: 0;
     position: relative;
-    border-radius: 0px 0px 20px 20px;
-    width: 100%;
-    height: 15vh;
   }
   .account-body {
     display: flex;
