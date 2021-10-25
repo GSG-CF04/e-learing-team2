@@ -1,7 +1,7 @@
 # Learning UI
 This project is a learning website prototype, it demonstrates the layout of the website on mobile phones, tablets and PC's, it is presented as the first project of Coding Foundations Course presented by [Gaza Sky Geeks](https://https://github.com/gazaskygeeks)
     This project was written using HTML and CSS since it's the basic markup language for static websites, and was designed for mobile phones (375 x 812 px) and fit to larger screens.
-    The website can be simply accessed from [here](https://).
+    The website can be simply accessed from [here](https://gsg-cf04.github.io/e-learing-team2/).
 <!-- github link here -->
 
 ---
